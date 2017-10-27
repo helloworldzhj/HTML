@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>叫我小朱就好</title>
+</head>
+<body>
+    <h1 align="center">滚动字符标签的使用</h1>
+    <h3>滚动字符标签marquee</h3>
+    <h3>滚动方向属性direction=left right up down 也可以设置他的高度</h3>
+    <h3>滚动行为behavior=scroll循环滚动 slide滚动一次 alternate左右来回</h3>
+    <h3>每次滚动距离scrollamount=具体的数字</h3>
+    <h3>每次滚动延迟scrolldelay=具体的数字</h3>
+    <h3>背景颜色bgcolor=颜色</h3>
+    <h3>循环次数loop=数字-1为无限循环</h3>
+<hr>
+    <marquee direction="left" behavior="scroll" width=700 scrollamount="50">
+        看到这条消息的你，将会有好运。<br>
+        全国人民代表大会在北京开会了<br>
+        政治协商会议在北京开会了<br>
+    </marquee>
+    <marquee direction="right" behavior="alternate" bgcolor="pink">
+        看到这条消息的你，将会有好运。<br>
+        全国人民代表大会在北京开会了<br>
+        政治协商会议在北京开会了<br>
+    </marquee>
+<hr>
+    <table border="1" width="100%" height="300" bgcolor="pink" cellpadding="30" cellspacing="10">
+        <tr bgcolor="#00bfff">
+            <td width="50%">
+                <marquee direction="up" height="200" behavior="slide">
+                    看到这条消息的你，将会有好运。<br>
+                    全国人民代表大会在北京开会了<br>
+                    政治协商会议在北京开会了<br>
+                </marquee>
+            </td>
+            <td bgcolor="#8a2be2">
+                <marquee direction="up" height="200" bgcolor="red">
+                    看到这条消息的你，将会有好运。<br>
+                    全国人民代表大会在北京开会了<br>
+                    政治协商会议在北京开会了<br>
+                </marquee>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
